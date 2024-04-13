@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include "../include/hashmap.h"
+#include "../include/puts.h"
 
 int main()
 {
     HashMap* encryptionMap = createHashMap();
-    put(encryptionMap, "A", 117);
-    put(encryptionMap, "B", 205);
+    addValues(encryptionMap);
 
     // Example usage
     char* key = "A";
