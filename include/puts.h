@@ -1,3 +1,6 @@
+#pragma once
+#pragma message( "Last modified on " __TIMESTAMP__ )
+
 #ifndef PUTS_H
 #define PUTS_H
 #include "hashmap.h"
@@ -56,6 +59,53 @@ void addValues(HashMap* map)
     put(map, "y", 76477);
     put(map, "Z", 94433); // Zz
     put(map, "z", 31275);
+
+    // Digitals
+    put(map, "0", 10001);
+    put(map, "1", 10002);
+    put(map, "2", 10003);
+    put(map, "3", 10004);
+    put(map, "4", 10005);
+    put(map, "5", 10006);
+    put(map, "6", 10007);
+    put(map, "7", 10008);
+    put(map, "8", 10009);
+    put(map, "9", 10010);
+
+    // Special symbols
+    put(map, " ", 24106);
+    put(map, "!", 12373);
+    put(map, "\"", 26241);
+    put(map, "#", 58901);
+    put(map, "$", 34131);
+    put(map, "%", 43289);
+    put(map, "&", 12930);
+    put(map, "\'", 12940);
+    put(map, "(", 29052);
+    put(map, ")", 19403);
+    put(map, "*", 10429);
+    put(map, "+", 18492);
+    put(map, ",", 19418);
+    put(map, "-", 94285);
+    put(map, ".", 14193);
+    put(map, "/", 52904);
+    put(map, ":", 12389);
+    put(map, ";", 28905);
+    put(map, "<", 12390);
+    put(map, "=", 47128);
+    put(map, ">", 18494);
+    put(map, "?", 12894);
+    put(map, "@", 31289);
+    put(map, "[", 23849);
+    put(map, "\\", 12392);
+    put(map, "]", 12305);
+    put(map, "^", 21049);
+    put(map, "_", 12032);
+    put(map, "`", 75924);
+    put(map, "{", 23950);
+    put(map, "|", 45891);
+    put(map, "}", 23005);
+    put(map, "~", 39012);
 }
 
 #endif
