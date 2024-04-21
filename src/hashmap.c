@@ -2,11 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-typedef struct {
-    char* key;
-    int value;
-} KeyValuePair;
-
 KeyValuePair* createKeyValuePair(char* key, int value) {
     KeyValuePair* pair = (KeyValuePair*)malloc(sizeof(KeyValuePair));
     pair->key = strdup(key);
@@ -18,12 +13,6 @@ void destroyKeyValuePair(KeyValuePair* pair) {
     free(pair->key);
     free(pair);
 }
-
-typedef struct {
-    KeyValuePair** pairs;
-    int size;
-    int capacity;
-} HashMap;
 
 HashMap* createHashMap() {
     HashMap* map = (HashMap*)malloc(sizeof(HashMap));
