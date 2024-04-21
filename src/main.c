@@ -12,18 +12,18 @@ and obtaining the corresponding values from the hash map for each character in t
 
 ========== Expected code algorithm ==========
 1. Create an encryption hash map (encryptionMap) using the createHashMap() function.
-2. Initialize the characters into the hash map using the addValues(encryptionMap) function.
-3. Prompt the user to enter a string using the fgets() function with a maximum number of characters read 255 and store the entered string in the input array.
+2. Add values to the hash map using the addValues(encryptionMap) function.
+3. Prompt the user to enter a string using the fgets() function and store the entered string in the input array.
 4. Remove newline character from input if present.
 5. Calculate the length of the input string (inputLength) and the number of blocks (numBlocks) of 255 characters.
-6. If the length of the entered string is greater than 255, increase the number of blocks by 1.
+6. If the length of the entered string is not a multiple of 255, increase the number of blocks by 1.
 7. For each block from 0 to numBlocks:
     a. Determine the starting and ending indexes of the block.
     b. For each character in the block from startIndex to endIndex:
        i. Create a key from a symbol.
        ii. Get the value from the hash map for a given key.
        iii. Print the value for the given key.
-8. Free up memory using the destroyHashMap(encryptionMap) function.
+8. Destroy the hash map using the destroyHashMap(encryptionMap) function.
 9. End the program.
 */
 
@@ -48,9 +48,7 @@ int main()
 
     int inputLength = strlen(input);
     int numBlocks = inputLength / 255;
-    if (inputLength > 255) {
-        numBlocks++;
-    }
+    if (inputLength % 255 != 0){ numBlocks++; }
 
     for (int block = 0; block < numBlocks; block++) {
         int startIndex = block * 255;
