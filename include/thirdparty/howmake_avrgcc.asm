@@ -1546,7 +1546,4 @@ main:
         pop r28
         ret
 
-end:
-        rjmp $
-
-.end
+rjmp $
