@@ -1,8 +1,6 @@
 #pragma once
 #pragma message( "Last modified on " __TIMESTAMP__ )
 
-#ifndef PUTS_H
-#define PUTS_H
 #include "hashmap.h"
 
 void addValues(HashMap* map)
@@ -107,5 +105,3 @@ void addValues(HashMap* map)
     put(map, "}", 23005);
     put(map, "~", 39012);
 }
-
-#endif

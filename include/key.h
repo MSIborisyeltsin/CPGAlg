@@ -1,8 +1,5 @@
 #pragma once
 
-#ifndef KEY_SIZE_CHECK_H
-#define KEY_SIZE_CHECK_H
-
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -18,5 +15,3 @@ void checkKeySize(char str[])
 
     printf("KeySize: %d\n", bits);
 }
-
-#endif

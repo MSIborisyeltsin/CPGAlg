@@ -1,5 +1,4 @@
-#ifndef HASHMAP_H
-#define HASHMAP_H
+#pragma once
 
 typedef struct {
     char* key;
@@ -19,5 +18,3 @@ HashMap* createHashMap();
 void destroyHashMap(HashMap* map);
 void put(HashMap* map, char* key, int value);
 int get(HashMap* map, char* key);
-
-#endif
