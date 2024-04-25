@@ -1,5 +1,4 @@
-# ignore folders
-src/py_prototype
+*.py
 include/thirdparty
 
 # Prerequisites
