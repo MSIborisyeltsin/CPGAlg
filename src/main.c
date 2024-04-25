@@ -11,8 +11,8 @@ All Rights Reserved.
 #include <stdlib.h>
 #include <string.h>
 
-#include "../include/hashmap.h"
-#include "../include/puts.h"
+#include "include/hashmap.h"
+#include "include/puts.h"
 
 int main() {
     HashMap* encryptionMap = createHashMap();
