@@ -5,103 +5,103 @@
 
 void addValues(HashMap* map)
 {
-    put(map, "A", 57767); // Aa
-    put(map, "a", 53643);
-    put(map, "B", 49741); // Bb
-    put(map, "b", 21327);
-    put(map, "C", 71088); // Cc
-    put(map, "c", 15358);
-    put(map, "D", 63796); // Dd
-    put(map, "d", 72015);
-    put(map, "E", 47139); // Ee
-    put(map, "e", 31868);
-    put(map, "F", 21455); // Ff
-    put(map, "f", 10095);
-    put(map, "G", 54063); // Gg
-    put(map, "g", 16096);
-    put(map, "H", 98257); // Hh
-    put(map, "h", 73011);
-    put(map, "I", 50928); // Ii
-    put(map, "i", 91478);
-    put(map, "J", 83904); // Jj
-    put(map, "j", 33500);
-    put(map, "K", 53115); // Kk
-    put(map, "k", 54985);
-    put(map, "L", 23596); // Ll
-    put(map, "l", 24453);
-    put(map, "M", 94676); // Mm
-    put(map, "m", 70985);
-    put(map, "N", 28476); // Nn
-    put(map, "n", 20088);
-    put(map, "O", 51801); // Oo
-    put(map, "o", 44214);
-    put(map, "P", 91807); // Pp
-    put(map, "p", 88295);
-    put(map, "Q", 88259); // Qq
-    put(map, "q", 14737);
-    put(map, "R", 17900); // Rr
-    put(map, "r", 69114);
-    put(map, "S", 97759); // Ss
-    put(map, "s", 53618);
-    put(map, "T", 81881); // Tt
-    put(map, "t", 67886);
-    put(map, "U", 31503); // Uu
-    put(map, "u", 17987);
-    put(map, "V", 29962); // Vv
-    put(map, "v", 11238);
-    put(map, "W", 21709); // Ww
-    put(map, "w", 10229);
-    put(map, "X", 25297); // Xx
-    put(map, "x", 33515);
-    put(map, "Y", 65943); // Yy
-    put(map, "y", 76477);
-    put(map, "Z", 94433); // Zz
-    put(map, "z", 31275);
+    put(map, "A", 13557767); // Aa
+    put(map, "a", 59153643);
+    put(map, "B", 34749741); // Bb
+    put(map, "b", 13421327);
+    put(map, "C", 74571088); // Cc
+    put(map, "c", 12715358);
+    put(map, "D", 79163796); // Dd
+    put(map, "d", 47272015);
+    put(map, "E", 54947139); // Ee
+    put(map, "e", 55231868);
+    put(map, "F", 10921455); // Ff
+    put(map, "f", 28410095);
+    put(map, "G", 23954063); // Gg
+    put(map, "g", 54016096);
+    put(map, "H", 19398257); // Hh
+    put(map, "h", 49073011);
+    put(map, "I", 69350928); // Ii
+    put(map, "i", 54091478);
+    put(map, "J", 19383904); // Jj
+    put(map, "j", 65833500);
+    put(map, "K", 12953115); // Kk
+    put(map, "k", 59454985);
+    put(map, "L", 65923596); // Ll
+    put(map, "l", 45024453);
+    put(map, "M", 43094676); // Mm
+    put(map, "m", 23070985);
+    put(map, "N", 49228476); // Nn
+    put(map, "n", 45020088);
+    put(map, "O", 28551801); // Oo
+    put(map, "o", 67944214);
+    put(map, "P", 73991807); // Pp
+    put(map, "p", 33288295);
+    put(map, "Q", 42888259); // Qq
+    put(map, "q", 39614737);
+    put(map, "R", 34017900); // Rr
+    put(map, "r", 65469114);
+    put(map, "S", 45997759); // Ss
+    put(map, "s", 72053618);
+    put(map, "T", 34981881); // Tt
+    put(map, "t", 68967886);
+    put(map, "U", 54931503); // Uu
+    put(map, "u", 64917987);
+    put(map, "V", 23029962); // Vv
+    put(map, "v", 75911238);
+    put(map, "W", 23021709); // Ww
+    put(map, "w", 64010229);
+    put(map, "X", 64825297); // Xx
+    put(map, "x", 64933515);
+    put(map, "Y", 27465943); // Yy
+    put(map, "y", 39476477);
+    put(map, "Z", 26594433); // Zz
+    put(map, "z", 76431275);
 
     // Digitals
-    put(map, "0", 10001);
-    put(map, "1", 10002);
-    put(map, "2", 10003);
-    put(map, "3", 10004);
-    put(map, "4", 10005);
-    put(map, "5", 10006);
-    put(map, "6", 10007);
-    put(map, "7", 10008);
-    put(map, "8", 10009);
-    put(map, "9", 10010);
+    put(map, "0", 10000001);
+    put(map, "1", 10000002);
+    put(map, "2", 10000003);
+    put(map, "3", 10000004);
+    put(map, "4", 10000005);
+    put(map, "5", 10000006);
+    put(map, "6", 10000007);
+    put(map, "7", 10000008);
+    put(map, "8", 10000009);
+    put(map, "9", 10000010);
 
     // Special symbols
-    put(map, " ", 24106);
-    put(map, "!", 12373);
-    put(map, "\"", 26241);
-    put(map, "#", 58901);
-    put(map, "$", 34131);
-    put(map, "%", 43289);
-    put(map, "&", 12930);
-    put(map, "\'", 12940);
-    put(map, "(", 29052);
-    put(map, ")", 19403);
-    put(map, "*", 10429);
-    put(map, "+", 18492);
-    put(map, ",", 19418);
-    put(map, "-", 94285);
-    put(map, ".", 14193);
-    put(map, "/", 52904);
-    put(map, ":", 12389);
-    put(map, ";", 28905);
-    put(map, "<", 12390);
-    put(map, "=", 47128);
-    put(map, ">", 18494);
-    put(map, "?", 12894);
-    put(map, "@", 31289);
-    put(map, "[", 23849);
-    put(map, "\\", 12392);
-    put(map, "]", 12305);
-    put(map, "^", 21049);
-    put(map, "_", 12032);
-    put(map, "`", 75924);
-    put(map, "{", 23950);
-    put(map, "|", 45891);
-    put(map, "}", 23005);
-    put(map, "~", 39012);
+    put(map, " ", 14924106);
+    put(map, "!", 50112373);
+    put(map, "\"", 65926241);
+    put(map, "#", 23058901);
+    put(map, "$", 65834131);
+    put(map, "%", 23043289);
+    put(map, "&", 57312930);
+    put(map, "\'", 25812940);
+    put(map, "(", 45629052);
+    put(map, ")", 24519403);
+    put(map, "*", 34210429);
+    put(map, "+", 25018492);
+    put(map, ",", 24319418);
+    put(map, "-", 60294285);
+    put(map, ".", 96714193);
+    put(map, "/", 29352904);
+    put(map, ":", 64812389);
+    put(map, ";", 75328905);
+    put(map, "<", 29412390);
+    put(map, "=", 64847128);
+    put(map, ">", 54818494);
+    put(map, "?", 54212894);
+    put(map, "@", 65931289);
+    put(map, "[", 23923849);
+    put(map, "\\", 54912392);
+    put(map, "]", 13212305);
+    put(map, "^", 64921049);
+    put(map, "_", 54312032);
+    put(map, "`", 75075924);
+    put(map, "{", 12323950);
+    put(map, "|", 49345891);
+    put(map, "}", 54923005);
+    put(map, "~", 59439012);
 }
