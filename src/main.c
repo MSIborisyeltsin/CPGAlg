@@ -23,7 +23,7 @@ int main() {
 
     if (input[strlen(input) - 1] == '\n') input[strlen(input) - 1] = '\0';
 
-    splitIntoBlocks(input);
+    // splitIntoBlocks(input);
 
     destroyHashMap(encryptionMap);
     return 0;
