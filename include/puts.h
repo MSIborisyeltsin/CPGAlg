@@ -1,5 +1,5 @@
 #pragma once
-#pragma message( "Last modified on " __TIMESTAMP__ )
+// #pragma message( "Last modified on " __TIMESTAMP__ )
 
 #include "hashmap.h"
 
