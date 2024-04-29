@@ -1,6 +1,6 @@
 # ignore folders
-src/py_prototype
-include/thirdparty
+py_prototype
+#include/thirdparty
 
 # Prerequisites
 *.d
